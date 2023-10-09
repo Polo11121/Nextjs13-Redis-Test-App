@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*", "./src/app/components/*", "./src/app/ui/*"],
+      "@/createBook/*": ["./src/app/createBook/*"],
+      "@/createCar/*": ["./src/app/createCar/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
